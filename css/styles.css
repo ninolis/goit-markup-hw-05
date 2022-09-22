@@ -556,6 +556,8 @@ background-color: var(--temp-bg-color);
 }
 
 .footer-logo {
+  display: block;
+  margin-right: 0;
   margin-bottom: 20px;
 }
 
@@ -573,6 +575,10 @@ background-color: var(--temp-bg-color);
   font-style: normal;
 }
 
+.direction-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .place-link {
   font-size: 14px;
   line-height: 1.71;
@@ -587,8 +593,6 @@ background-color: var(--temp-bg-color);
 }
 
 .direction-link {
-  margin-top: 9px;
-  margin-bottom: 0;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -608,8 +612,8 @@ background-color: var(--temp-bg-color);
 }
 
 .footer-title {
-  font-family: 'Roboto';
-  font-weight: 700;
+  /* font-family: 'Roboto'; */
+  /* font-weight: 700; */
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
