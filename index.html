@@ -16,16 +16,17 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- Header section -->
     <header class="page-cap">
       <!-- temp-bg-color -->
       <div class="container cap-container">
         <nav class="navigation">
-          <a class="logo" href="./index.html"
+          <a class="logo link" href="./index.html"
             >Web<span class="logo-span-topline">Studio</span></a
           >
-          <ul class="navigation-list">
+          <ul class="navigation-list list">
             <li class="navigation-item">
-              <a class="navigation-link link current" href="./index.html"
+              <a class="navigation-link link current-page" href="./index.html"
                 >Студія</a
               >
             </li>
@@ -40,7 +41,7 @@
           </ul>
         </nav>
         <!-- Contacts -->
-        <ul class="contact-list">
+        <ul class="contact-list list">
           <!-- Link to e-mail address -->
           <li class="contact-item">
             <a class="contact-link link" href="mailto:info@devstudio.com">
@@ -65,19 +66,19 @@
       <!-- Hero section -->
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Ефективні рішення для<br />вашого бізнесу</h1>
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button class="hero-button" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
       </section>
 
-      <!-- advantages or features -->
+      <!-- Advantages (or Features) section -->
       <section class="advantages section">
         <!-- temp-bg-color -->
         <div class="container">
           <h2 class="visually-hidden">Особливості</h2>
-          <ul class="advantage-list">
+          <ul class="advantage-list list">
             <li class="advantage-item">
               <div class="advantage-icon-wrap">
                 <svg class="advantage-icon" width="70" height="70">
@@ -128,11 +129,12 @@
           </ul>
         </div>
       </section>
+      <!-- Activities section -->
       <section class="activities section">
         <!-- temp-bg-color -->
         <div class="container">
           <h2 class="activities-title">Чим ми займаємося</h2>
-          <ul class="activity-list">
+          <ul class="activity-list list">
             <li class="activity-item">
               <div class="activity-title-wrap">
                 <h3 class="activity-after-title">Десктопні додатки</h3>
@@ -172,11 +174,12 @@
           </ul>
         </div>
       </section>
+      <!-- Our Team section -->
       <section class="team-members section">
         <!-- temp-bg-color -->
         <div class="container">
           <h2 class="team-members-title">Наша команда</h2>
-          <ul class="team-list">
+          <ul class="team-list list">
             <li class="team-member">
               <img
                 class="team-photo"
@@ -185,7 +188,7 @@
                 width="270"
                 height="260"
               />
-              <div class="team-wrapper">
+              <div class="team-wrap">
                 <h3 class="team-title">Ігор Дем'яненко</h3>
                 <p class="team-position">Product Designer</p>
                 <ul class="socials list">
@@ -228,7 +231,7 @@
                 width="270"
                 height="260"
               />
-              <div class="team-wrapper">
+              <div class="team-wrap">
                 <h3 class="team-title">Ольга Рєпіна</h3>
                 <p class="team-position">Frontend Developer</p>
                 <ul class="socials list">
@@ -271,7 +274,7 @@
                 width="270"
                 height="260"
               />
-              <div class="team-wrapper">
+              <div class="team-wrap">
                 <h3 class="team-title">Микола Тарасов</h3>
                 <p class="team-position">Marketing</p>
                 <ul class="socials list">
@@ -314,7 +317,7 @@
                 width="270"
                 height="260"
               />
-              <div class="team-wrapper">
+              <div class="team-wrap">
                 <h3 class="team-title">Михайло Єрмаков</h3>
                 <p class="team-position">UI Designer</p>
                 <ul class="socials list">
@@ -353,12 +356,12 @@
         </div>
       </section>
 
-      <!-- Customers -->
+      <!-- Customers section -->
       <section class="customers section">
         <!-- temp-bg-color -->
         <div class="container">
           <h2 class="customers-title">Постійні клієнти</h2>
-          <ul class="customers-list">
+          <ul class="customers-list list">
             <li class="customers-item">
               <a class="customers-link link" href="">
                 <svg class="customers-icon" width="106" height="60">
@@ -405,76 +408,75 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="lower-block">
-      <div class="container">
-        <div class="footer-wrapper">
-          <div class="footer-contacts-wrap">
-            <a class="logo footer-logo" href="./index.html"
-              >Web<span class="footer-logo-span">Studio</span></a
-            >
-            <address class="directions">
-              <ul class="direction-list">
-                <!-- Link to google maps -->
-                <li class="direction-item">
-                  <a
-                    class="place-link link"
-                    href="http://www.google.com/maps/place/50.426618271852675,30.53838579754048"
-                    target="_blank"
-                    rel="noopener nofollow noreferrer"
-                    >м. Київ, пр-т Лесі Українки, 26</a
-                  >
-                </li>
-                <!-- Link to e-mail address -->
-                <li class="direction-item">
-                  <a
-                    class="direction-link link"
-                    href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                  >
-                </li>
-                <!-- Link to phone number  -->
-                <li class="direction-item">
-                  <a class="direction-link link" href="tel:+3809611111"
-                    >+38 096 111 11 11</a
-                  >
-                </li>
-              </ul>
-            </address>
-          </div>
-          <div class="footer-socials-wrap">
-            <h2 class="footer-title">Приєднуйтесь</h2>
-            <ul class="footer-socials">
-              <li class="footer-socials-item">
-                <a class="footer-socials-link" href="" aria-label="Instagram">
-                  <svg class="footer-socials-icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
+      <div class="container footer-wrapper">
+        <!-- <div class="footer-wrapper"> -->
+        <div class="footer-contacts-wrap">
+          <a class="logo footer-logo link" href="./index.html"
+            >Web<span class="footer-logo-span">Studio</span></a
+          >
+          <address class="directions">
+            <ul class="direction-list list">
+              <!-- Link to google maps -->
+              <li class="direction-item">
+                <a
+                  class="place-link link"
+                  href="http://www.google.com/maps/place/50.426618271852675,30.53838579754048"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
               </li>
-              <li class="footer-socials-item">
-                <a class="footer-socials-link" href="" aria-label="Twitter">
-                  <svg class="footer-socials-icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
+              <!-- Link to e-mail address -->
+              <li class="direction-item">
+                <a class="direction-link link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
-              <li class="footer-socials-item">
-                <a class="footer-socials-link" href="" aria-label="Facebook">
-                  <svg class="footer-socials-icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-socials-item">
-                <a class="footer-socials-link" href="" aria-label="Linkedin">
-                  <svg class="footer-socials-icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
+              <!-- Link to phone number  -->
+              <li class="direction-item">
+                <a class="direction-link link" href="tel:+3809611111"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
-          </div>
+          </address>
         </div>
+        <div class="footer-socials-wrap">
+          <h2 class="footer-title">Приєднуйтесь</h2>
+          <ul class="footer-socials list">
+            <li class="footer-socials-item">
+              <a class="footer-socials-link" href="" aria-label="Instagram">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a class="footer-socials-link" href="" aria-label="Twitter">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a class="footer-socials-link" href="" aria-label="Facebook">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a class="footer-socials-link" href="" aria-label="Linkedin">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- </div> -->
       </div>
     </footer>
 

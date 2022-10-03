@@ -16,19 +16,22 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- Header section -->
     <header class="page-cap">
       <!-- temp-bg-color -->
       <div class="container cap-container">
         <nav class="navigation">
-          <a class="logo" href="./index.html"
+          <a class="logo link" href="./index.html"
             >Web<span class="logo-span-topline">Studio</span></a
           >
-          <ul class="navigation-list">
+          <ul class="navigation-list list">
             <li class="navigation-item">
               <a class="navigation-link link" href="./index.html">Студія</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link link current" href="./portfolio.html"
+              <a
+                class="navigation-link link current-page"
+                href="./portfolio.html"
                 >Портфоліо</a
               >
             </li>
@@ -38,7 +41,7 @@
           </ul>
         </nav>
         <!-- Contacts -->
-        <ul class="contact-list">
+        <ul class="contact-list list">
           <!-- Link to e-mail address -->
           <li class="contact-item">
             <a class="contact-link link" href="mailto:info@devstudio.com">
@@ -60,10 +63,11 @@
       </div>
     </header>
     <main>
+      <!-- Filters Section -->
       <section class="filters section">
         <div class="container">
           <h1 class="visually-hidden">Фільтри</h1>
-          <ul class="filter-list">
+          <ul class="filter-list list">
             <li class="filter-item">
               <button class="filter-button" type="button">Усі</button>
             </li>
@@ -92,13 +96,10 @@
                     height="294"
                   />
                   <p class="project-description">
-                    Lorem, ipsum dolor sit amet consectetur, adipisicing elit.
-                    Eveniet, reprehenderit officia voluptatibus, laudantium
-                    aspernatur iure!. Lorem, ipsum dolor sit amet consectetur,
-                    adipisicing elit.
+                    Lorem, ipsum dolor sit amet consectetur/
                   </p>
                 </div>
-                <div class="title-wrap">
+                <div class="project-title-wrap">
                   <h2 class="project-title">Технокряк</h2>
                   <p class="project-category">Веб-сайт</p>
                 </div>
@@ -120,7 +121,7 @@
                     aspernatur iure!.
                   </p>
                 </div>
-                <div class="title-wrap">
+                <div class="project-title-wrap">
                   <h2 class="project-title">
                     Постер New Orlean vs Golden Star
                   </h2>
@@ -145,7 +146,7 @@
                     adipisicing elit.
                   </p>
                 </div>
-                <div class="title-wrap">
+                <div class="project-title-wrap">
                   <h2 class="project-title">Ресторан Seafood</h2>
                   <p class="project-category">Додаток</p>
                 </div>
@@ -168,7 +169,7 @@
                     adipisicing elit.
                   </p>
                 </div>
-                <div class="title-wrap">
+                <div class="project-title-wrap">
                   <h2 class="project-title">Проєкт Prime</h2>
                   <p class="project-category">Маркетинг</p>
                 </div>
@@ -191,7 +192,7 @@
                     adipisicing elit.
                   </p>
                 </div>
-                <div class="title-wrap">
+                <div class="project-title-wrap">
                   <h2 class="project-title">роєкт Boxes</h2>
                   <p class="project-category">Додаток</p>
                 </div>
@@ -214,7 +215,7 @@
                     adipisicing elit.
                   </p>
                 </div>
-                <div class="title-wrap">
+                <div class="project-title-wrap">
                   <h2 class="project-title">Inspiration has no Borders</h2>
                   <p class="project-category">Веб-сайт</p>
                 </div>
@@ -237,7 +238,7 @@
                     adipisicing elit.
                   </p>
                 </div>
-                <div class="title-wrap">
+                <div class="project-title-wrap">
                   <h2 class="project-title">Видання Limited Edition</h2>
                   <p class="project-category">Дизайн</p>
                 </div>
@@ -260,7 +261,7 @@
                     adipisicing elit.
                   </p>
                 </div>
-                <div class="title-wrap">
+                <div class="project-title-wrap">
                   <h2 class="project-title">Проєкт LAB</h2>
                   <p class="project-category">Маркетинг</p>
                 </div>
@@ -283,7 +284,7 @@
                     adipisicing elit.
                   </p>
                 </div>
-                <div class="title-wrap">
+                <div class="project-title-wrap">
                   <h2 class="project-title">Growing Business</h2>
                   <p class="project-category">Додаток</p>
                 </div>
@@ -293,76 +294,75 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="lower-block">
-      <div class="container">
-        <div class="footer-wrapper">
-          <div class="footer-contacts-wrap">
-            <a class="logo footer-logo" href="./index.html"
-              >Web<span class="footer-logo-span">Studio</span></a
-            >
-            <address class="directions">
-              <ul class="direction-list">
-                <!-- Link to google maps -->
-                <li class="direction-item">
-                  <a
-                    class="place-link link"
-                    href="http://www.google.com/maps/place/50.426618271852675,30.53838579754048"
-                    target="_blank"
-                    rel="noopener nofollow noreferrer"
-                    >м. Київ, пр-т Лесі Українки, 26</a
-                  >
-                </li>
-                <!-- Link to e-mail address -->
-                <li class="direction-item">
-                  <a
-                    class="direction-link link"
-                    href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                  >
-                </li>
-                <!-- Link to phone number  -->
-                <li class="direction-item">
-                  <a class="direction-link link" href="tel:+3809611111"
-                    >+38 096 111 11 11</a
-                  >
-                </li>
-              </ul>
-            </address>
-          </div>
-          <div class="footer-socials-wrap">
-            <h2 class="footer-title">Приєднуйтесь</h2>
-            <ul class="footer-socials">
-              <li class="footer-socials-item">
-                <a class="footer-socials-link" href="" aria-label="Instagram">
-                  <svg class="footer-socials-icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
+      <div class="container footer-wrapper">
+        <!-- <div class="footer-wrapper"> -->
+        <div class="footer-contacts-wrap">
+          <a class="logo footer-logo link" href="./index.html"
+            >Web<span class="footer-logo-span">Studio</span></a
+          >
+          <address class="directions">
+            <ul class="direction-list list">
+              <!-- Link to google maps -->
+              <li class="direction-item">
+                <a
+                  class="place-link link"
+                  href="http://www.google.com/maps/place/50.426618271852675,30.53838579754048"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
               </li>
-              <li class="footer-socials-item">
-                <a class="footer-socials-link" href="" aria-label="Twitter">
-                  <svg class="footer-socials-icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
+              <!-- Link to e-mail address -->
+              <li class="direction-item">
+                <a class="direction-link link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
-              <li class="footer-socials-item">
-                <a class="footer-socials-link" href="" aria-label="Facebook">
-                  <svg class="footer-socials-icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-socials-item">
-                <a class="footer-socials-link" href="" aria-label="Linkedin">
-                  <svg class="footer-socials-icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
+              <!-- Link to phone number  -->
+              <li class="direction-item">
+                <a class="direction-link link" href="tel:+3809611111"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
-          </div>
+          </address>
         </div>
+        <div class="footer-socials-wrap">
+          <h2 class="footer-title">Приєднуйтесь</h2>
+          <ul class="footer-socials list">
+            <li class="footer-socials-item">
+              <a class="footer-socials-link" href="" aria-label="Instagram">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a class="footer-socials-link" href="" aria-label="Twitter">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a class="footer-socials-link" href="" aria-label="Facebook">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a class="footer-socials-link" href="" aria-label="Linkedin">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- </div> -->
       </div>
     </footer>
   </body>
