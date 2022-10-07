@@ -451,7 +451,6 @@ margin-bottom: 30px;
   margin-bottom: 16px;
 }
 
-/* .team-wrapper .socials */
 .socials {
   display: flex;
   align-items: center;
@@ -462,6 +461,11 @@ margin-bottom: 30px;
   margin-right: 10px;
 }
 
+.socials-icon {
+  fill: var(--socials-color);
+  transition: fill var(--primary-hover);
+}
+
 .socials-link {
   display: flex;
   align-items: center;
@@ -469,26 +473,21 @@ margin-bottom: 30px;
 
   width: 44px;
   height: 44px;
-
-  background-color: #ffffff;
   border-radius: 50%;
 
-  color: var(--socials-color);
-  /* fill: var(--primary-bg-color); */
-  transition: background-color var(--primary-hover), fill var(--primary-hover);
+  transition: background-color var(--primary-hover);
 }
 
-.footer-socials-link:hover,
-.footer-socials-link:focus,
 .socials-link:hover,
-.socials-link:focus {
+.socials-link:focus,
+.footer-socials-link:hover,
+.footer-socials-link:focus {
   background-color: var(--secondary-color);
-  color: var(--primary-bg-color);
 }
 
-.socials-icon {
-  fill: currentColor;
-  transition: fill var(--primary-hover);
+.socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon {
+  fill: var(--primary-bg-color);
 }
 
 /* ------------ Customers ------------- */
